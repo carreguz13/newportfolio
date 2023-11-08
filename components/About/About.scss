@@ -1,0 +1,285 @@
+$main-color: #ff9100;
+$detail-color: #080a7c;
+
+@media (max-width: 480px) {
+    .about {
+        background-image: none !important;
+        padding-bottom: 90px !important;
+    }
+
+    .middle {
+        flex-wrap: wrap;
+
+        flex-direction: column;
+    }
+
+}
+
+.about {
+    position: relative;
+    height: auto;
+    padding: 90px 7% 250px 7%;
+    background-image: url(../../public/grass3.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    h1 {
+        font-family: 'Pacifico', cursive;
+        width: fit-content;
+        letter-spacing: 2px;
+        white-space: nowrap;
+        font-size: 40px;
+        color: $main-color;
+        will-change: transform;
+        transition-timing-function: cubic-bezier(0.88, 2.85, 0.46, -0.12);
+        transition-duration: .2s;
+        margin: 0;
+        padding-bottom: 25px;
+
+        text-shadow: 0px 1px 0 darken($main-color, 10),
+            0px 2px 0 darken($main-color, 10),
+            0px 3px 0 darken($main-color, 10),
+            0px 4px 0 darken($main-color, 10),
+            0px 5px 0 darken($main-color, 10),
+            0px 6px 0 darken($main-color, 10),
+            0px 7px 0 darken($main-color, 10),
+
+            0px 5+1px 0 $detail-color,
+            0px 5+2px 0 $detail-color,
+            0px 5+3px 0 $detail-color,
+            0px 5+4px 0 $detail-color,
+            0px 5+5px 0 $detail-color,
+            0px 5+6px 0 $detail-color,
+            0px 5+7px 0 $detail-color,
+
+            2px 5+1px 0 $detail-color,
+            2px 5+2px 0 $detail-color,
+            2px 5+3px 0 $detail-color,
+            2px 5+4px 0 $detail-color,
+            2px 5+5px 0 $detail-color,
+            2px 5+6px 0 $detail-color,
+            2px 5+7px 0 $detail-color,
+
+            -2px 5+1px 0 $detail-color,
+            -2px 5+2px 0 $detail-color,
+            -2px 5+3px 0 $detail-color,
+            -2px 5+4px 0 $detail-color,
+            -2px 5+5px 0 $detail-color,
+            -2px 5+6px 0 $detail-color,
+            -2px 5+7px 0 $detail-color,
+
+            0px 12+1px 0 darken($detail-color, 10),
+            0px 12+2px 0 darken($detail-color, 10),
+            0px 12+3px 0 darken($detail-color, 10),
+            0px 12+4px 0 darken($detail-color, 10),
+            0px 12+5px 0 darken($detail-color, 10),
+            0px 12+6px 0 darken($detail-color, 10),
+            0px 12+7px 0 darken($detail-color, 10),
+
+            4px 10+1px 0 darken($detail-color, 10),
+            4px 10+2px 0 darken($detail-color, 10),
+            4px 10+3px 0 darken($detail-color, 10),
+            4px 10+4px 0 darken($detail-color, 10),
+            4px 10+5px 0 darken($detail-color, 10),
+            4px 10+6px 0 darken($detail-color, 10),
+            4px 10+7px 0 darken($detail-color, 10),
+
+            -4px 10+1px 0 darken($detail-color, 10),
+            -4px 10+2px 0 darken($detail-color, 10),
+            -4px 10+3px 0 darken($detail-color, 10),
+            -4px 10+4px 0 darken($detail-color, 10),
+            -4px 10+5px 0 darken($detail-color, 10),
+            -4px 10+6px 0 darken($detail-color, 10),
+            -4px 10+7px 0 darken($detail-color, 10),
+
+            3px 7px 0 darken($detail-color, 10),
+            4px 8px 0 darken($detail-color, 10),
+
+            -4px 9px 0 darken($detail-color, 10),
+
+            0 14+7px 15px #000;
+
+        &:hover {
+            cursor: default;
+            transition-duration: 0.5s;
+
+            transform: translateY(-20px);
+            text-shadow: 0px 1px 0 darken($main-color, 10),
+                0px 2px 0 darken($main-color, 10),
+                0px 3px 0 darken($main-color, 10),
+                0px 4px 0 darken($main-color, 10),
+                0px 5px 0 darken($main-color, 10),
+                0px 6px 0 darken($main-color, 10),
+                0px 7px 0 darken($main-color, 10),
+
+                0px 5+1px 0 $detail-color,
+                0px 5+2px 0 $detail-color,
+                0px 5+3px 0 $detail-color,
+                0px 5+4px 0 $detail-color,
+                0px 5+5px 0 $detail-color,
+                0px 5+6px 0 $detail-color,
+                0px 5+7px 0 $detail-color,
+
+                2px 5+1px 0 $detail-color,
+                2px 5+2px 0 $detail-color,
+                2px 5+3px 0 $detail-color,
+                2px 5+4px 0 $detail-color,
+                2px 5+5px 0 $detail-color,
+                2px 5+6px 0 $detail-color,
+                2px 5+7px 0 $detail-color,
+
+                -2px 5+1px 0 $detail-color,
+                -2px 5+2px 0 $detail-color,
+                -2px 5+3px 0 $detail-color,
+                -2px 5+4px 0 $detail-color,
+                -2px 5+5px 0 $detail-color,
+                -2px 5+6px 0 $detail-color,
+                -2px 5+7px 0 $detail-color,
+
+                0px 12+1px 0 darken($detail-color, 10),
+                0px 12+2px 0 darken($detail-color, 10),
+                0px 12+3px 0 darken($detail-color, 10),
+                0px 12+4px 0 darken($detail-color, 10),
+                0px 12+5px 0 darken($detail-color, 10),
+                0px 12+6px 0 darken($detail-color, 10),
+                0px 12+7px 0 darken($detail-color, 10),
+
+                4px 10+1px 0 darken($detail-color, 10),
+                4px 10+2px 0 darken($detail-color, 10),
+                4px 10+3px 0 darken($detail-color, 10),
+                4px 10+4px 0 darken($detail-color, 10),
+                4px 10+5px 0 darken($detail-color, 10),
+                4px 10+6px 0 darken($detail-color, 10),
+                4px 10+7px 0 darken($detail-color, 10),
+
+                -4px 10+1px 0 darken($detail-color, 10),
+                -4px 10+2px 0 darken($detail-color, 10),
+                -4px 10+3px 0 darken($detail-color, 10),
+                -4px 10+4px 0 darken($detail-color, 10),
+                -4px 10+5px 0 darken($detail-color, 10),
+                -4px 10+6px 0 darken($detail-color, 10),
+                -4px 10+7px 0 darken($detail-color, 10),
+
+                3px 7px 0 darken($detail-color, 10),
+                4px 8px 0 darken($detail-color, 10),
+
+                -4px 9px 0 darken($detail-color, 10),
+
+                0 14+20+7px 30px #000;
+        }
+
+    }
+
+
+    p {
+        font-size: 17px;
+
+        font-weight: 600;
+        color: rgb(133, 70, 11);
+        padding-bottom: 20px;
+        z-index: 2;
+    }
+
+    .middle {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+
+
+
+
+
+        .image-a {
+            border-radius: 50%;
+            width: auto;
+        }
+
+        @media (max-width: 480px) {
+            .image-a {
+                border-radius: 50%;
+                width: 250px;
+                height: auto;
+                margin-bottom: 50px;
+                margin-top: 10px;
+
+            }
+
+
+        }
+
+
+
+
+        section {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            h2 {
+                margin: 0;
+                color: #ff0000;
+                font-family: 'Pacifico', cursive;
+                text-shadow: 0 1px 0 #69120f,
+                    0 2px 0 #69120f,
+                    0 3px 0 #69120f,
+                    0 4px 0 #69120f,
+                    0 5px 0 #69120f;
+
+
+            }
+        }
+
+
+
+        .list {
+            display: flex;
+            margin: 0;
+
+            ul {
+                padding: 0;
+
+
+            }
+
+            li {
+                list-style: none;
+                color: rgb(10, 83, 1);
+                font-weight: 800;
+                padding: 5px 30px 0 0;
+
+                i {
+                    font-size: 12px;
+                    color: rgb(10, 83, 1);
+                    text-shadow: 0px 1px 0 #7B3F00,
+                        2px 2px 0 #bebebe,
+                        3px 3px 0 #696969;
+                    padding-right: 10px;
+                }
+
+                span {
+                    text-shadow: none;
+
+
+                    padding-left: 5px;
+                    font-size: 15px;
+
+                    font-weight: 600;
+                    color: rgb(133, 70, 11);
+                }
+            }
+        }
+    }
+
+
+
+}
+
+@media (max-width: 480px) {
+    .list {
+        flex-direction: column;
+        z-index: 999;
+    }
+}

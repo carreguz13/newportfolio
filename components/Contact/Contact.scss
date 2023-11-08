@@ -1,0 +1,478 @@
+$main-color: #ff9100;
+$detail-color: #080a7c;
+
+.contact {
+    position: relative;
+    height: auto;
+    padding: 40px 7% 150px 7%;
+    overflow: hidden;
+    background-image: url(../../public/desert.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .bush {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        bottom: 5%;
+        left: -5%;
+        animation: bush 16s ease infinite;
+
+    }
+
+    .bush2 {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        bottom: 2%;
+        left: -5%;
+        animation: bush2 10s infinite;
+
+    }
+
+    @keyframes bush {
+        100% {
+            transform: translateX(100vw) rotateZ(2000deg);
+        }
+
+    }
+
+    @keyframes bush2 {
+        100% {
+            transform: translateX(100vw) rotateZ(3000deg);
+        }
+
+    }
+
+    .boxh1 {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+
+    h1 {
+        font-family: 'Pacifico', cursive;
+        width: fit-content;
+        letter-spacing: 2px;
+        white-space: nowrap;
+        font-size: 40px;
+        color: $main-color;
+        will-change: transform;
+        transition-timing-function: cubic-bezier(0.88, 2.85, 0.46, -0.12);
+        transition-duration: .2s;
+        margin: 0;
+        padding-bottom: 25px;
+
+
+        text-shadow: 0px 1px 0 darken($main-color, 10),
+            0px 2px 0 darken($main-color, 10),
+            0px 3px 0 darken($main-color, 10),
+            0px 4px 0 darken($main-color, 10),
+            0px 5px 0 darken($main-color, 10),
+            0px 6px 0 darken($main-color, 10),
+            0px 7px 0 darken($main-color, 10),
+
+            0px 5+1px 0 $detail-color,
+            0px 5+2px 0 $detail-color,
+            0px 5+3px 0 $detail-color,
+            0px 5+4px 0 $detail-color,
+            0px 5+5px 0 $detail-color,
+            0px 5+6px 0 $detail-color,
+            0px 5+7px 0 $detail-color,
+
+            2px 5+1px 0 $detail-color,
+            2px 5+2px 0 $detail-color,
+            2px 5+3px 0 $detail-color,
+            2px 5+4px 0 $detail-color,
+            2px 5+5px 0 $detail-color,
+            2px 5+6px 0 $detail-color,
+            2px 5+7px 0 $detail-color,
+
+            -2px 5+1px 0 $detail-color,
+            -2px 5+2px 0 $detail-color,
+            -2px 5+3px 0 $detail-color,
+            -2px 5+4px 0 $detail-color,
+            -2px 5+5px 0 $detail-color,
+            -2px 5+6px 0 $detail-color,
+            -2px 5+7px 0 $detail-color,
+
+            0px 12+1px 0 darken($detail-color, 10),
+            0px 12+2px 0 darken($detail-color, 10),
+            0px 12+3px 0 darken($detail-color, 10),
+            0px 12+4px 0 darken($detail-color, 10),
+            0px 12+5px 0 darken($detail-color, 10),
+            0px 12+6px 0 darken($detail-color, 10),
+            0px 12+7px 0 darken($detail-color, 10),
+
+            4px 10+1px 0 darken($detail-color, 10),
+            4px 10+2px 0 darken($detail-color, 10),
+            4px 10+3px 0 darken($detail-color, 10),
+            4px 10+4px 0 darken($detail-color, 10),
+            4px 10+5px 0 darken($detail-color, 10),
+            4px 10+6px 0 darken($detail-color, 10),
+            4px 10+7px 0 darken($detail-color, 10),
+
+            -4px 10+1px 0 darken($detail-color, 10),
+            -4px 10+2px 0 darken($detail-color, 10),
+            -4px 10+3px 0 darken($detail-color, 10),
+            -4px 10+4px 0 darken($detail-color, 10),
+            -4px 10+5px 0 darken($detail-color, 10),
+            -4px 10+6px 0 darken($detail-color, 10),
+            -4px 10+7px 0 darken($detail-color, 10),
+
+            3px 7px 0 darken($detail-color, 10),
+            4px 8px 0 darken($detail-color, 10),
+
+            -4px 9px 0 darken($detail-color, 10),
+
+            0 14+7px 15px #000;
+
+        &:hover {
+            cursor: default;
+            transition-duration: 0.5s;
+
+            transform: translateY(-20px);
+            text-shadow: 0px 1px 0 darken($main-color, 10),
+                0px 2px 0 darken($main-color, 10),
+                0px 3px 0 darken($main-color, 10),
+                0px 4px 0 darken($main-color, 10),
+                0px 5px 0 darken($main-color, 10),
+                0px 6px 0 darken($main-color, 10),
+                0px 7px 0 darken($main-color, 10),
+
+                0px 5+1px 0 $detail-color,
+                0px 5+2px 0 $detail-color,
+                0px 5+3px 0 $detail-color,
+                0px 5+4px 0 $detail-color,
+                0px 5+5px 0 $detail-color,
+                0px 5+6px 0 $detail-color,
+                0px 5+7px 0 $detail-color,
+
+                2px 5+1px 0 $detail-color,
+                2px 5+2px 0 $detail-color,
+                2px 5+3px 0 $detail-color,
+                2px 5+4px 0 $detail-color,
+                2px 5+5px 0 $detail-color,
+                2px 5+6px 0 $detail-color,
+                2px 5+7px 0 $detail-color,
+
+                -2px 5+1px 0 $detail-color,
+                -2px 5+2px 0 $detail-color,
+                -2px 5+3px 0 $detail-color,
+                -2px 5+4px 0 $detail-color,
+                -2px 5+5px 0 $detail-color,
+                -2px 5+6px 0 $detail-color,
+                -2px 5+7px 0 $detail-color,
+
+                0px 12+1px 0 darken($detail-color, 10),
+                0px 12+2px 0 darken($detail-color, 10),
+                0px 12+3px 0 darken($detail-color, 10),
+                0px 12+4px 0 darken($detail-color, 10),
+                0px 12+5px 0 darken($detail-color, 10),
+                0px 12+6px 0 darken($detail-color, 10),
+                0px 12+7px 0 darken($detail-color, 10),
+
+                4px 10+1px 0 darken($detail-color, 10),
+                4px 10+2px 0 darken($detail-color, 10),
+                4px 10+3px 0 darken($detail-color, 10),
+                4px 10+4px 0 darken($detail-color, 10),
+                4px 10+5px 0 darken($detail-color, 10),
+                4px 10+6px 0 darken($detail-color, 10),
+                4px 10+7px 0 darken($detail-color, 10),
+
+                -4px 10+1px 0 darken($detail-color, 10),
+                -4px 10+2px 0 darken($detail-color, 10),
+                -4px 10+3px 0 darken($detail-color, 10),
+                -4px 10+4px 0 darken($detail-color, 10),
+                -4px 10+5px 0 darken($detail-color, 10),
+                -4px 10+6px 0 darken($detail-color, 10),
+                -4px 10+7px 0 darken($detail-color, 10),
+
+                3px 7px 0 darken($detail-color, 10),
+                4px 8px 0 darken($detail-color, 10),
+
+                -4px 9px 0 darken($detail-color, 10),
+
+                0 14+20+7px 30px #000;
+        }
+
+    }
+
+    p {
+        font-size: 17px;
+        font-weight: 600;
+        color: var(--black);
+        padding-bottom: 20px;
+        z-index: 2;
+    }
+
+    .main {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+        gap: 10px;
+
+    }
+
+
+    @media (max-width: 480px) {
+
+        form {
+            width: 100% !important;
+
+        }
+
+    }
+
+    form {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 30px;
+        border-radius: 20px;
+        background: #00000052;
+
+
+        backdrop-filter: blur(10px);
+        box-shadow: 2px 2px 9px #0d0d0d;
+
+        label {
+            font-size: 15px;
+            color: #fff;
+            font-weight: 400;
+            padding-bottom: 5px;
+        }
+
+        input {
+
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 7px;
+            border: none;
+            background: linear-gradient(to right bottom,
+
+                    rgba(255, 255, 255, 0.922),
+                    rgba(217, 217, 217, 0.379));
+            font-size: 18px;
+
+        }
+
+        textarea {
+
+            margin-bottom: 40px;
+            padding: 10px;
+            border-radius: 7px;
+            border: none;
+            background: linear-gradient(to right bottom,
+
+                    rgba(255, 255, 255, 0.922),
+                    rgba(217, 217, 217, 0.379));
+            font-size: 18px;
+            font-family: poppins;
+            color: #000;
+
+        }
+
+        button {
+            padding: 10px 20px;
+            background: linear-gradient(126deg, rgb(0, 44, 190) 0%, rgb(0, 5, 64) 100%);
+            font-size: 18px;
+            width: 100px;
+            border-radius: 7px;
+            cursor: pointer;
+            color: #fff;
+            font-weight: 600;
+            font-size: 15px;
+            transition: .2s ease;
+            border: none;
+
+
+            &:hover {
+                scale: 1.1;
+
+            }
+
+            &:active {
+                scale: 0.8;
+            }
+        }
+
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+
+    h2 {
+        margin: 0;
+        color: #ff0000;
+        font-family: 'Pacifico', cursive;
+        text-shadow: 0 1px 0 #69120f,
+            0 2px 0 #69120f,
+            0 3px 0 #69120f,
+            0 4px 0 #69120f,
+            0 5px 0 #69120f;
+
+    }
+
+
+    ul {
+        padding: 0 0;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            padding-top: 10px;
+            transition: 0.2s ease-in-out;
+
+            i {
+                color: var(--white);
+                font-size: 30px;
+                text-shadow: 3px 3px 3px #000000;
+            }
+        }
+
+        a:hover {
+            i {
+                animation: shake 1200ms;
+                scale: 1.6;
+            }
+        }
+
+        a:active {
+            scale: 0.8;
+        }
+
+
+        @keyframes shake {
+            0% {
+                transform: rotateZ(0);
+            }
+
+            $pos: 1;
+
+            @for $i from 1 through 9 {
+                $pos: $pos * -1;
+                $m: (
+                    50 / $i) * $pos;
+
+                #{$i*10%} {
+                    transform: rotateZ($m * 1deg)
+                }
+            }
+
+            100% {
+                transform: rotateZ(0
+                );
+        }
+    }
+
+
+
+
+}
+
+.social-profiles2 {
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+
+    section {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            padding-top: 10px;
+            transition: 0.2s ease-in-out;
+
+            i {
+                color: var(--white);
+                font-size: 30px;
+                text-shadow: 3px 3px 3px #000000;
+            }
+        }
+
+        a:hover {
+            i {
+                animation: shake 1200ms;
+                scale: 1.6;
+            }
+        }
+
+        a:active {
+            scale: 0.8;
+        }
+
+
+        @keyframes shake {
+            0% {
+                transform: rotateZ(0);
+            }
+
+            $pos: 1;
+
+            @for $i from 1 through 9 {
+                $pos: $pos * -1;
+                $m: (
+                    50 / $i) * $pos;
+
+                #{$i*10%} {
+                    transform: rotateZ($m * 1deg)
+                }
+            }
+
+            100% {
+                transform: rotateZ(0
+                );
+        }
+    }
+}
+}
+
+
+
+
+
+
+}
