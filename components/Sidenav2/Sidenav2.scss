@@ -1,36 +1,207 @@
 @media (min-width: 1229px) {
-
-
-    .icon {
+    .container {
         display: none;
-
     }
 }
 
-.icon {
 
+.iconbox {
     position: fixed;
-    top: 50px;
-    right: 10%;
-    width: 50px;
-    height: 50px;
-    background-image: url(../../public/hamburguer.png);
-    z-index: 999;
-    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+    right: 5%;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    background-color: rgba(173, 216, 230, 0.70);
+    box-shadow: 1px 1px 8px #000;
+    border-radius: 50%;
     cursor: pointer;
+    z-index: 999;
+
+    div {
+        width: 100%;
+        height: 100%;
+        background-image: url(../../public/hamburguer.png);
+        background-size: cover;
+    }
 }
 
-.icon2 {
-
+.iconbox2 {
     position: fixed;
-    top: 50px;
-    left: 50%;
-    width: 50px;
-    height: 50px;
-    background-image: url(../../public/x.png);
-    z-index: 999;
-    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+    right: 5%;
+    width: 20px;
+    height: 20px;
+
+    padding: 10px;
+    background-color: rgba(173, 216, 230, 0.70);
+    box-shadow: 1px 1px 8px #000;
+    border-radius: 50%;
     cursor: pointer;
+    z-index: 999;
+
+    div {
+        width: 90%;
+        height: 90%;
+        background-image: url(../../public/x.png);
+        background-size: cover;
+    }
 }
 
-.sidenav2 {}
+.sidenav2 {
+    height: 100%;
+    width: 60%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(36, 13, 13, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+    box-shadow: 1px 2px 10px 2px #830e0e;
+    z-index: 999;
+
+    .image-container {
+        margin-top: 30px;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 4px 4px 10px #473503;
+
+
+        .img {
+            border-radius: 50%;
+            width: 105px;
+            height: auto;
+            box-shadow: 2px 2px 4px #000;
+
+        }
+    }
+
+    .home-link {
+        text-decoration: none;
+        color: var(--white);
+
+        h1 {
+            font-size: 15px;
+            font-weight: 600;
+            text-transform: capitalize;
+            letter-spacing: 2px;
+            margin: 0;
+            padding: 10px 0 0 0;
+            font-family: pacifico;
+            text-shadow: 0 1px 0 #7c7c7c,
+                0 2px 0 #7c7c7c,
+                0 3px 0 #b3b3b3,
+                0 4px 0 #b3b3b3,
+                0 5px 0 #b3b3b3;
+
+        }
+    }
+
+    ul {
+        padding: 0 0;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            padding-top: 10px;
+            transition: 0.2s ease-in-out;
+
+
+            i {
+                color: var(--white);
+                font-size: 22px;
+
+
+            }
+        }
+
+
+        a:active {
+            scale: 0.8;
+        }
+
+
+
+    }
+
+    nav {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 2px;
+
+
+
+
+        a {
+
+            font-size: 15px;
+            font-weight: 400;
+            color: var(--white);
+            text-decoration: none;
+            text-transform: capitalize;
+            padding: 15px 30px;
+            transition: 0.2s ease;
+            cursor: pointer;
+
+
+
+
+            i {
+                text-shadow: 0 1px 0 #3a3a3a,
+                    0 2px 0 #3a3a3a,
+                    0 3px 0 #868686,
+                    0 4px 0 #868686,
+                    0 5px 0 #868686;
+
+            }
+
+            &:hover {
+                color: var(--white);
+                scale: 1.2;
+                font-weight: 600;
+                scale: 1.2;
+
+
+            }
+
+            &:active {
+                scale: 0.8;
+            }
+
+
+
+            i {
+                font-size: 20px;
+                padding-right: 8px;
+            }
+
+
+        }
+    }
+}
