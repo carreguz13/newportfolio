@@ -29,7 +29,7 @@ function Sidenav2() {
             <Image className="img" src={me} alt="Carlos arreola" />
           </div>
 
-          <a className="home-link" href="#">
+          <a className="home-link" href="/">
             <h1>carlos arreola</h1>
           </a>
           <ul>
