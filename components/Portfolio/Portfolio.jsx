@@ -1,5 +1,4 @@
 import React from "react";
-import Swing from "react-reveal/Swing";
 
 function Portfolio() {
   return (
@@ -22,19 +21,17 @@ function Portfolio() {
         them and they´ll take you to the application.
       </p>
       <div className="projects">
-        <Swing>
-          <a href="https://ecommerce-sanity-stripe-pi-six.vercel.app/">
-            <section>E-commerce</section>
-          </a>
+        <a href="https://ecommerce-sanity-stripe-pi-six.vercel.app/">
+          <section>E-commerce</section>
+        </a>
 
-          <a href="https://crudappv2.vercel.app/">
-            <section>CRUD</section>
-          </a>
+        <a href="https://crudappv2.vercel.app/">
+          <section>CRUD</section>
+        </a>
 
-          <a href="https://carreguz13.github.io/RickMortyReact/">
-            <section>Rick & Morty api</section>
-          </a>
-        </Swing>
+        <a href="https://carreguz13.github.io/RickMortyReact/">
+          <section>Rick & Morty api</section>
+        </a>
       </div>
     </div>
   );
