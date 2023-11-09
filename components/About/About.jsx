@@ -1,6 +1,7 @@
 import React from "react";
 import Mee from "../../public/mee.jpg";
 import Image from "next/image";
+import Bounce from "react-reveal/Bounce";
 
 function About() {
   return (
@@ -25,40 +26,45 @@ function About() {
             to life through code and design!
           </p>
           <div className="list">
-            <ul>
-              <li>
-                <i class="fa-solid fa-circle"></i> Name:{" "}
-                <span>Carlos Arreola</span>{" "}
-              </li>
-              <li>
-                <i class="fa-solid fa-circle"></i> Website: <span>pending</span>{" "}
-              </li>
-              <li>
-                <i class="fa-solid fa-circle"></i> Phone:{" "}
-                <span>52 81 2717 9069</span>{" "}
-              </li>
-              <li>
-                <i class="fa-solid fa-circle"></i> City:{" "}
-                <span>Mazatlan, Mex.</span>{" "}
-              </li>
-            </ul>
-
-            <ul>
-              <li>
-                <i class="fa-solid fa-circle"></i> Age: <span>27</span>{" "}
-              </li>
-              <li>
-                <i class="fa-solid fa-circle"></i> Degree: <span>Bachelor</span>{" "}
-              </li>
-              <li>
-                <i class="fa-solid fa-circle"></i> Career:{" "}
-                <span>Mechatronic Engineering</span>{" "}
-              </li>
-              <li>
-                <i class="fa-solid fa-circle"></i> Email:{" "}
-                <span>carreguz13@gmail.com</span>{" "}
-              </li>
-            </ul>
+            <Bounce left cascade>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-circle"></i> Name:{" "}
+                  <span>Carlos Arreola</span>{" "}
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle"></i> Website:{" "}
+                  <span>pending</span>{" "}
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle"></i> Phone:{" "}
+                  <span>52 81 2717 9069</span>{" "}
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle"></i> City:{" "}
+                  <span>Mazatlan, Mex.</span>{" "}
+                </li>
+              </ul>
+            </Bounce>
+            <Bounce right cascade>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-circle"></i> Age: <span>27</span>{" "}
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle"></i> Degree:{" "}
+                  <span>Bachelor</span>{" "}
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle"></i> Career:{" "}
+                  <span>Mechatronic Engineering</span>{" "}
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle"></i> Email:{" "}
+                  <span>carreguz13@gmail.com</span>{" "}
+                </li>
+              </ul>
+            </Bounce>
           </div>
         </section>
       </div>
