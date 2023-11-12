@@ -21,7 +21,7 @@ $detail-color: #080a7c;
         position: absolute;
         bottom: 5%;
         left: -5%;
-        animation: bush 16s ease infinite;
+        animation: bush 10s ease infinite;
 
     }
 
@@ -31,20 +31,35 @@ $detail-color: #080a7c;
         position: absolute;
         bottom: 2%;
         left: -5%;
-        animation: bush2 10s infinite;
+        animation: bush2 7s ease infinite;
 
     }
 
+
+    @media (max-width: 480px) {
+        .bush2 {
+            animation: bush2 6s ease infinite;
+        }
+
+        .bush {
+            animation: bush 8s ease infinite;
+        }
+    }
+
+
+
+
+
     @keyframes bush {
         100% {
-            transform: translateX(100vw) rotateZ(2000deg);
+            transform: translateX(110vw) rotateZ(3000deg);
         }
 
     }
 
     @keyframes bush2 {
         100% {
-            transform: translateX(100vw) rotateZ(3000deg);
+            transform: translateX(110vw) rotateZ(3000deg);
         }
 
     }
@@ -216,7 +231,7 @@ $detail-color: #080a7c;
         height: auto;
         display: flex;
         flex-wrap: wrap;
-
+        justify-content: center;
         gap: 10px;
 
     }

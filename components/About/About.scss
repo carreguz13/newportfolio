@@ -8,6 +8,7 @@ $detail-color: #080a7c;
     }
 
     .middle {
+
         flex-wrap: wrap;
 
         flex-direction: column;
@@ -186,8 +187,10 @@ $detail-color: #080a7c;
         width: 100%;
         display: flex;
         justify-content: center;
+        padding-top: 40px;
         gap: 5%;
 
+        align-items: center;
 
 
 
