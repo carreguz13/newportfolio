@@ -22,18 +22,18 @@ $detail-color: #080a7c;
         bottom: 5%;
         left: -5%;
         animation: bush 10s ease infinite;
-
     }
 
-    .bush2 {
+    
+        .bush2 {
         width: 70px;
         height: 70px;
         position: absolute;
         bottom: 2%;
         left: -5%;
         animation: bush2 7s ease infinite;
-
     }
+
 
 
     @media (max-width: 480px) {
@@ -45,9 +45,6 @@ $detail-color: #080a7c;
             animation: bush 8s ease infinite;
         }
     }
-
-
-
 
 
     @keyframes bush {
@@ -82,8 +79,6 @@ $detail-color: #080a7c;
         transition-duration: .2s;
         margin: 0;
         padding-bottom: 25px;
-
-
         text-shadow: 0px 1px 0 darken($main-color, 10),
             0px 2px 0 darken($main-color, 10),
             0px 3px 0 darken($main-color, 10),
@@ -328,13 +323,6 @@ $detail-color: #080a7c;
 }
 
 
-
-
-
-
-
-
-
 .section {
     flex: 1;
     display: flex;
@@ -352,7 +340,6 @@ $detail-color: #080a7c;
             0 3px 0 #69120f,
             0 4px 0 #69120f,
             0 5px 0 #69120f;
-
     }
 
 

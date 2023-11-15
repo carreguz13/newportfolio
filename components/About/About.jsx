@@ -31,7 +31,8 @@ function About() {
                 <span>Carlos Arreola</span>{" "}
               </li>
               <li>
-                <i class="fa-solid fa-circle"></i> Website: <span>pending</span>{" "}
+                <i class="fa-solid fa-circle"></i> Website:{" "}
+                <span>carreguz.vercel.app</span>{" "}
               </li>
               <li>
                 <i class="fa-solid fa-circle"></i> Phone:{" "}
