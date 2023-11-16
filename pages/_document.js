@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://carreguz.vercel.app/_next/static/media/og.JPG"
+            content="https://raw.githubusercontent.com/carreguz13/newportfolio/main/public/og.JPG"
           />
 
           <link
