@@ -1,19 +1,18 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import Image from "next/image";
-import op from "../public/og.JPG";
 
 export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
         <Head>
-          <meta property="og:title" content="Portfolio website" />
+          <meta property="og:url" content="https://carreguz.vercel.app/" />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="Protfolio website" />
           <meta
             property="og:description"
-            content="¡Welcome to my portfolio website!"
+            content="Front-end Web Developer transforming ideas into immersive digital experiences. Specializing in creating intuitive and visually captivating websites. Elevate your online presence with a touch of innovation and a commitment to seamless user experiences. Let's build something extraordinary together!"
           />
-          <meta property="og:image" content={op} />
-          <meta property="og:type" content="website" />
+
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -38,7 +37,7 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
             rel="stylesheet"
           ></link>
-          <title>Welcome!</title>
+          <title>Protfolio website</title>
           <link rel="icon" href="/favicon2.png" />
         </Head>
         <body>
