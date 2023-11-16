@@ -1,10 +1,19 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import Image from "next/image";
+import op from "../public/og.JPG";
 
 export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
         <Head>
+          <meta property="og:title" content="Portfolio website" />
+          <meta
+            property="og:description"
+            content="¡Welcome to my portfolio website!"
+          />
+          <meta property="og:image" content={op} />
+          <meta property="og:type" content="website" />
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
