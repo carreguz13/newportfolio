@@ -30,10 +30,14 @@ function About() {
                 <i class="fa-solid fa-circle"></i> Name:{" "}
                 <span>Carlos Arreola</span>{" "}
               </li>
+
               <li>
                 <i class="fa-solid fa-circle"></i> Website:{" "}
-                <span>carreguz.vercel.app</span>{" "}
+                <a className="link" href="https://carreguz.vercel.app">
+                  <span>carreguz.vercel.app</span>
+                </a>
               </li>
+
               <li>
                 <i class="fa-solid fa-circle"></i> Phone:{" "}
                 <span>52 81 2717 9069</span>{" "}
