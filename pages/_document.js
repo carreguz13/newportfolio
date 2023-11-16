@@ -7,10 +7,14 @@ export default class MyDocument extends Document {
         <Head>
           <meta property="og:url" content="https://carreguz.vercel.app/" />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Protfolio website" />
+          <meta property="og:title" content="Carlos Arreola" />
           <meta
             property="og:description"
             content="Front-end Web Developer transforming ideas into immersive digital experiences. Specializing in creating intuitive and visually captivating websites. Elevate your online presence with a touch of innovation and a commitment to seamless user experiences. Let's build something extraordinary together!"
+          />
+          <meta
+            property="og:image"
+            content="https://carreguz.vercel.app/_next/static/media/og.JPG"
           />
 
           <link
@@ -37,7 +41,7 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
             rel="stylesheet"
           ></link>
-          <title>Protfolio website</title>
+          <title>Carlos Arreola</title>
           <link rel="icon" href="/favicon2.png" />
         </Head>
         <body>
