@@ -46,6 +46,7 @@ function Contact() {
         soon as possible.
       </p>
       <div className="main">
+      {/* 
         <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>
           <input type="text" name="user_name" required />
@@ -57,7 +58,7 @@ function Contact() {
             Send
           </button>
         </form>
-
+*/}
         <div className="section">
           <h2>Social Profiles</h2>
 
@@ -65,9 +66,11 @@ function Contact() {
             <a href="https://wa.me/528127179069">
               <i className="fa-brands fa-whatsapp"></i>
             </a>
+            {/* 
             <a href="https://www.linkedin.com/in/carreguz/">
               <i className="fa-brands fa-linkedin-in"></i>
             </a>
+            */}
             <a href="https://www.instagram.com/carlosarre13/">
               <i className="fa-brands fa-instagram"></i>
             </a>

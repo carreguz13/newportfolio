@@ -7,9 +7,8 @@ function About() {
     <div className="about" id="about">
       <h1>About</h1>
       <p>
-        Hello there! I'm Carlos, I have a degree in mechatronic engineering
-        specialize in programming, as a Jr. Front-End Developer specializing in
-        React and a Full-Stack Developer in WordPress, I'm passionate about web
+        Hello there! I'm Carlos Arreola, I have a degree in mechatronic engineering
+        specialize in programming, as a Front-End Developer I'm passionate about web
         development and committed to continuous learning to expand my skills in
         both front-end and back-end technologies. I thrive on bringing designs
         to life, delivering seamless user experiences, and crafting functional
@@ -40,7 +39,7 @@ function About() {
 
               <li>
                 <i class="fa-solid fa-circle"></i> Phone:{" "}
-                <span>52 81 2717 9069</span>{" "}
+                <span>+52 81 2717 9069</span>{" "}
               </li>
               <li>
                 <i class="fa-solid fa-circle"></i> City:{" "}

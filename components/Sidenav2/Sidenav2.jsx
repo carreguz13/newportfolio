@@ -35,9 +35,11 @@ function Sidenav2() {
             <a href="https://wa.me/528127179069">
               <i className="fa-brands fa-whatsapp"></i>
             </a>
+            {/*
             <a href="https://www.linkedin.com/in/carreguz/">
               <i className="fa-brands fa-linkedin-in"></i>
             </a>
+           */ }
             <a href="https://www.instagram.com/carlosarre13/">
               <i className="fa-brands fa-instagram"></i>
             </a>

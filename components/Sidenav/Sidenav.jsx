@@ -20,9 +20,11 @@ function Sidenav() {
         <a href="https://wa.me/528127179069">
           <i className="fa-brands fa-whatsapp"></i>
         </a>
+        {/*
         <a href="https://www.linkedin.com/in/carreguz/">
           <i className="fa-brands fa-linkedin-in"></i>
         </a>
+        */}
         <a href="https://www.instagram.com/carlosarre13/">
           <i className="fa-brands fa-instagram"></i>
         </a>
@@ -46,7 +48,7 @@ function Sidenav() {
         </a>
       </nav>
       <p>
-        Copyright © 2023 Carlos Arreola.
+        Copyright © 2024 Carlos Arreola.
         <br /> All Rights Reserved.
       </p>
     </div>
